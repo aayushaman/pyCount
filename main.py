@@ -2,7 +2,7 @@ import click
 
 
 @click.command()
-@click.option('-c', is_flag=True, help="Count the number of Bytes in the FILE.")
+@click.option('-c', is_flag=True, help="Counts the number of Bytes in the FILE.")
 @click.argument('file', type=click.Path())
 def pyc(c, file):
 
